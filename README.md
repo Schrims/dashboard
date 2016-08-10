@@ -1,1 +1,1 @@
-Check out http://shopify.github.com/dashing for more information.
+First dashboard usage with Dashing.io!
