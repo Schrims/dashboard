@@ -22,3 +22,9 @@ dashing start
 
 Now open a browser and enter the following URL
 `http://127.0.0.1:3030/test`
+
+For the basic authentication see the `config.ru`file
+```
+Username: admin
+Password: admin
+```
