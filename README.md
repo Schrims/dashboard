@@ -8,6 +8,12 @@ Install all the dependencies
 [sudo] gem install bundle
 ```
 
+Bundle the package
+````
+cd dashboard
+bundle
+```
+
 Start the dashboard
 ```
 cd dashboard
