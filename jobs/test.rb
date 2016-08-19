@@ -8,7 +8,7 @@ SCHEDULER.every '2s', :first_in => 0 do |job|
   send_event('up_time', {
     value: current_time - start_time
   })
-  send_event('response_time2', {
+  send_event('response_time', {
     value: (rand * 600).to_i
   })
 end

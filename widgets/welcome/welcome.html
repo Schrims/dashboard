@@ -1,0 +1,15 @@
+<h1 class="title" data-bind="title"></h1>
+
+<div data-bind="text"></div>
+
+<div class="circle" >
+  <i class="user-info" data-bind="userinfo"></i>
+</div>
+
+
+<button id="btn_logout">logout</button>
+<script>
+document.getElementById("btn_logout").addEventListener('click', function() {
+  alert('logged out!');
+});
+</script>
