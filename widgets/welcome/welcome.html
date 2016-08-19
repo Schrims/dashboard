@@ -2,13 +2,17 @@
 
 <div data-bind="text"></div>
 
-<div class="circle" >
+<div id="circle" class="circle" >
   <i class="user-info" data-bind="userinfo"></i>
 </div>
 
 
 <button id="btn_logout">logout</button>
 <script>
+document.getElementById("circle").addEventListener('click', function() {
+  alert('open user profile');
+});
+
 document.getElementById("btn_logout").addEventListener('click', function() {
   alert('logged out!');
 });
